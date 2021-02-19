@@ -1,0 +1,24 @@
+{
+  "name": "notepad-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnathanNNguyen/Notepad-backend.git"
+  },
+  "author": "Johnathan Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnathanNNguyen/Notepad-backend/issues"
+  },
+  "homepage": "https://github.com/JohnathanNNguyen/Notepad-backend#readme"
+}
