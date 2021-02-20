@@ -1,10 +1,11 @@
 {
   "name": "notepad-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "The backend to my notepad app using mySQL node.js and express",
   "main": "app.js",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "mysql": "^2.18.1"
   },
   "devDependencies": {},
