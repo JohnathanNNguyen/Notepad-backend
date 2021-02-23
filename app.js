@@ -1,6 +1,7 @@
 // imports
 const express = require("express");
 const mysql = require("mysql");
+const cors = require("cors");
 const app = express();
 
 // Import and load the .env file
@@ -13,6 +14,8 @@ const db = mysql.createConnection({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
 });
+
+app.use(cors());
 
 app.get("/select", (req, res) => {
   db.query("SELECT * FROM note_data", (err, result) => {
